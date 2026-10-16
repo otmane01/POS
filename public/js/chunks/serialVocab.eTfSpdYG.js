@@ -1,0 +1,1 @@
+const a=["available","sold","returned_customer","returned_supplier","damaged","reserved"];function s(e){return{available:"success",sold:"processing",returned_customer:"warning",returned_supplier:"warning",damaged:"error",reserved:"default"}[e]||"default"}export{a as S,s};
